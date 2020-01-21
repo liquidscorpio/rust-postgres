@@ -26,7 +26,7 @@ postgres-protocol = { version = "0.5.0", path = "../postgres-protocol" }
 postgres-derive = { version = "0.4.0", optional = true, path = "../postgres-derive" }
 
 bit-vec-06 = { version = "0.6", package = "bit-vec", optional = true }
-chrono-04 = { version = "0.4", package = "chrono", optional = true }
+chrono-04 = { git = "https://github.com/liquidscorpio/chrono.git", branch = "master", package = "chrono", optional = true }
 eui48-04 = { version = "0.4", package = "eui48", optional = true }
 geo-types-04 = { version = "0.4", package = "geo-types", optional = true }
 serde-1 = { version = "1.0", package = "serde", optional = true }
